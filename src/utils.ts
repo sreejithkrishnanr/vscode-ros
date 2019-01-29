@@ -1,6 +1,6 @@
 import * as extension from "./extension";
 import * as pfs from "./promise-fs";
-import * as cp from "child_process";
+import * as cp from "./child_process";
 import * as _ from "underscore";
 import * as vscode from "vscode";
 
@@ -26,7 +26,7 @@ export function sourceSetupFile(filename: string, env?: any): Promise<any> {
           }
 
           return env;
-        }, {}));
+        }, env));
       } else {
         reject(err);
       }

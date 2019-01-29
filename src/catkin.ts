@@ -1,5 +1,5 @@
 import * as extension from "./extension";
-import * as cp from "child_process";
+import * as cp from "./child_process";
 import * as vscode from "vscode";
 
 /**

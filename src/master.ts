@@ -1,7 +1,7 @@
 import * as constants from "./constants";
 import * as extension from "./extension";
 import * as pfs from "./promise-fs";
-import * as cp from "child_process";
+import * as cp from "./child_process";
 import * as _ from "underscore";
 import * as vscode from "vscode";
 import * as xmlrpc from "xmlrpc";
